@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- metatags -->
+    <meta name="author" content="Skiing in the Northeast">
+    <meta name="description" content="Skiing in the Northeast">
+    <meta name="keywords" content="Northeast, Skiing, Ski Resorts, Winter, Mountains, Outdoors">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- google fonts ~ montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <!-- title -->
+    <title>Skiing in the Northeast</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+
+        <!-- logo which brings the user back to the home page -->
+        <div id="logo">
+            <a href="../index.html"><img id="logoIcon" src="../img/logo-icon.png" alt="Mountains Lineart Logo"></a>
+        </div>
+    
+        <!-- pages -->
+        <div id="pages">
+            <a href="trailMaps.html">trail maps</a>
+            /
+            <a href="skiResorts.html">ski resorts</a>
+            /
+            <a id="activePage" href="contact.html">contact</a>
+            /
+            <a href="map.html">map</a>
+        </div>
+
+    </nav>
+
+    <!--Contact form-->
+    <h1>Contact Us</h1>
+    <br>
+
+    <!-- follows the format of an email -->
+    <form>
+        <fieldset>
+            <label>
+                Name:
+                <input type="text" name="name" size="30" maxlength="100">
+            </label>
+            <br>
+
+            <label>
+                Email:
+                <input type="email" name="email" size="30" maxlength="100">
+            </label>
+            <br>
+
+            <label>
+                Subject:
+                <input type="text" name="subject" size="30" maxlength="100">
+            </label>
+            <br>
+
+            <p>
+                <label for="comments">Comments:</label>
+                <br>
+
+                <textarea rows="10" cols="50" id="comments"></textarea>
+            </p>
+
+            <!-- option to send the user a copy of the email -->
+            <label>
+                <input type="checkbox" name="subscribe" checked="checked" />
+                Send me a copy of this email
+            </label>
+            <br>
+
+            <input type="submit" value="Send" />
+        </fieldset>
+        <br />
+    </form>
+
+    <!-- footer -->
+    <footer>
+        <!-- div needed to seperate background color from content -->
+        <div id="footer">
+            <p>
+                Julia Graham | 2022 | 
+                <a href="mailto:juliagra@andrew.cmu.edu">Email</a>
+                <img id="mailIcon" src="../img/mail-icon.png" alt="mail icon">
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
