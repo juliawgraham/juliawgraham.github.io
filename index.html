@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- metatags -->
+    <meta name="author" content="Julia Graham">
+    <meta name="description" content="Crumbl">
+    <meta name="keywords" content="Crumbl, bread, bakery, food, order">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google fonts ~ Italiana (logo text) and Raleway (body text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Raleway:wght@100;300;400;600&display=swap" rel="stylesheet">
+
+    <!-- title -->
+    <title>Crumbl</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+
+        <!-- logo which brings the user back to the home page -->
+        <div id="logo">
+            <a href="index.html"><img id="logoIcon" src="img/logo-white.png" alt="Crumbl logo"></a>
+            <h1>CRUMBL</h1>
+        </div>
+    
+        <!-- pages used for navigation (laptop, tablet) -->
+        <div id="pages">
+            <a href="">MENU</a>
+            /
+            <a href="">ABOUT</a>
+            /
+            <a href="">CONTACT</a>
+
+            <!-- extra spaces to seperate general page navigation from the cart -->
+            &nbsp;
+            &nbsp;
+            &nbsp;
+
+            <!-- cart -->
+            <a href="index.html"><img id="cartIcon" src="img/cart.png" alt="Cart"></a>
+        </div>
+
+        <!-- for phones, a hamburger menu replaces the horizontal nav bar -->
+        <div id="hamburgerMenu">
+            <a href="index.html"><img id="menuIcon" src="img/hamburger-menu.png" alt="Hamburger menu"></a>
+        </div>
+
+    </nav>
+
+    <!-- main ~ first impression and call to action -->
+    <div id="main">
+
+        <!-- description of what this bakery offers to entice customers -->
+        <div id="description">
+            <p>Fresh, traditional, hand-crafted bread.</p><br>
+            <!-- call to action button -->
+            <button>SHOP NOW</button>
+        </div>
+
+        <div>
+            <img id="mainImg" src="img/bread-main.png" alt="Circular loaf of bread">
+        </div> 
+
+    </div>
+
+    <!-- signature products ~ shows selection of what is offered -->
+    <h1 id="products-heading">Signature Products</h1>
+
+    <div id="products-content">
+
+        <!-- each card includes product image and name 
+            (which is a link to more information/ordering) -->
+        <div class="card">
+            <img src="img/baguette.png" alt="Baguette">
+            <a href="index.html">Baguette</a>
+        </div>
+
+        <div class="card">
+            <img src="img/ciabatta.png" alt="Ciabatta">
+            <a href="index.html">Ciabatta</a>
+        </div>
+
+        <div class="card">
+            <img src="img/sourdough.png" alt="Sourdough">
+            <a href="index.html">Sourdough</a>
+        </div>
+
+        <div class="card">
+            <img src="img/naan.png" alt="Naan">
+            <a href="index.html">Naan</a>
+        </div>
+
+    </div>
+
+    <!-- button to view all products this bakery offers -->
+    <button id="products-btn">VIEW ALL PRODUCTS</button>
+
+    <!-- our story ~ gives the user more information about the bakery/the owner -->
+    <h1 id="story-heading">Our Story</h1>
+
+    <div id="story-content">
+
+        <!-- image of the owner (laptop, tablet) -->
+        <img id="storyImg" src="img/owner.jpg" alt="Owner of Crumbl">
+        <!-- smaller image of the owner (mobile) -->
+        <img id="storyImgSm" src="img/owner-sm.jpg" alt="Owner of Crumbl">
+
+        <div id="story">
+
+            <!-- the beginning of the story, which the readers can choose to read more of -->
+            <p>
+                My grandmother taught me how to bake bread when I was 7,
+                and I immediately fell in love with the art of baking.
+            </p>
+            <br>
+
+            <!-- button to read the rest of this company's story -->
+            <button id="story-btn">READ OUR FULL STORY</button>
+
+        </div>
+
+    </div>
+
+    <!-- location and hours -->
+    <h1 id="location-heading">Location and Hours</h1>
+
+    <div id="location-content">
+        
+        <div id="loc-hours">
+            
+            <!-- location information -->
+            <div id="loc">
+                <h6>Location</h6> <br>
+                <p>5000 Forbes Ave</p> 
+                <p>Pittsburgh, PA 15213</p> 
+            </div>
+
+            <!-- hours of operation -->
+            <div id="hours">
+                <h6>Hours</h6> <br>
+                <p>10am - 6pm everyday</p>
+            </div>
+
+        </div>
+
+        <!-- map to show the users the location -->
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.4486140570984!2d-79.94503858466292!3d40.44320676195287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1664969133617!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+    <!-- footer ~ includes contact information and social media links -->
+    <footer>
+
+        <h6>Contact Us</h6> <br>
+        <p>123.4567</p>
+        <p>hello@crumbl.com</p> <br>
+
+        <!-- social media -->
+        <a href=""><img id="socialIcons" src="img/social-media.png" alt="Social media icons"></a>
+
+    </footer>
+
+</body>
+
+</html>
