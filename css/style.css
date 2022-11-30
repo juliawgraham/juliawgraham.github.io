@@ -1,0 +1,140 @@
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+/* includes all content besides the footer */
+#content {
+    max-height: calc(100vh - 8vh);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* top bar with site name and logo  */
+
+#top-bar {
+    background-color: #444C42;
+}
+
+#logo {
+    height: 35px;
+}
+
+/* 'legacy fig tree collection' text at the top of the homepage */
+
+#welcome-text {
+    color: #657160;
+}
+
+/* tree card styling  */
+
+.card {
+    background-color: #444C42 !important;
+    width: 100%;
+    height: 19vh !important;
+}
+
+.card img {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+}
+
+.tree-card-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* light gray text for the click icon */
+.light-gray-text {
+    color: #adb5bd;
+}
+
+/* flag icon for tree specific pages */
+#flag-icon {
+    height: 1.8rem;
+    width: auto;
+}
+
+/* bottom navigation bar */
+
+#btm-nav {
+    background-color: #90B082;
+    height: 8vh;
+}
+
+#btm-nav .navbar-nav > li {
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+/* since the donate icon is not from bootstrap's icons, 
+it needs special styling */
+
+#donate-icon {
+    margin-top: 3px;
+    margin-left: 8px;
+    padding-bottom: 3px;
+    height: 3.3vh;
+    width: auto;
+}
+
+#donate-icon-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* generic styling */
+
+/* embedded videos stretch full length */
+
+.embedVids {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+/* font sizes */
+
+p {
+    font-size: .8em !important;
+}
+
+small, .small {
+    font-size: .7rem !important;
+}
+
+h5 {
+    font-size: 0.9rem !important;
+}
+
+/* link and button styling  */
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #90B082 !important;
+    border: #90B082 !important;
+    border-radius: 1rem !important;
+    color: #000000 !important;
+}
+
+a, a:visited, a:hover, a:active {
+    color: #90B082 !important;
+}
+
+/* fonts and styling*/
+.dela {
+    font-family: "Mrs Saint Delafield";
+    text-shadow: 2px 2px 2px black;
+}
+.kamer {
+    font-family: "Kameron";
+}
+.abril {
+    font-family: "Abril Fatface";
+}
+body {
+    font-family: "Kameron" !important;
+}
+
+.textshadow {
+    text-shadow: 1px 1px 2px black;
+}
